@@ -1,0 +1,72 @@
+CSS
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+#foto {
+    width: 450px;
+    height: 450px;
+}   
+.content {
+    flex: 1; 
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.fondo-background {
+  /* Reemplaza con una URL válida de imagen */
+  background-image: url(./src/front/assets/img/fondo.jpg);
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-form {
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 500px; /* Un poco más ancho para que quepan icono y texto en una línea */
+}
+
+.vip-background {
+  /* Reemplaza con una URL válida de imagen */
+  background-image: url(./src/front/assets/img/vipfondo.jpg);
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.vip-background2 {
+  background-image: url(./src/front/assets/img/vipfondo.jpg);
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;           
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  
+}
